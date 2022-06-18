@@ -1,31 +1,11 @@
-[2022-06-18 21:11:35,048: INFO: stage_01_load_save]: 
+[2022-06-18 21:34:30,057: INFO: stage_02_split_data]: 
 ********************
-[2022-06-18 21:11:35,048: INFO: stage_01_load_save]: >>>>> stage GET DATA started <<<<<
-[2022-06-18 21:11:35,051: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-06-18 21:11:39,110: INFO: common]: created directory at: artifacts\raw_local_dir
-[2022-06-18 21:11:39,123: INFO: stage_01_load_save]: >>>>> stage GET DATA completed!<<<<<
-
-[2022-06-18 21:12:56,800: INFO: stage_01_load_save]: 
-********************
-[2022-06-18 21:12:56,801: INFO: stage_01_load_save]: >>>>> stage GET DATA started <<<<<
-[2022-06-18 21:12:56,803: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-06-18 21:12:58,957: INFO: common]: created directory at: artifacts\raw_local_dir
-[2022-06-18 21:12:58,969: INFO: stage_01_load_save]: raw data is saved at: artifacts\raw_local_dir\data.csv
-[2022-06-18 21:12:58,969: INFO: stage_01_load_save]: >>>>> stage GET DATA completed!<<<<<
-
-[2022-06-18 21:15:59,451: INFO: stage_01_load_save]: 
-********************
-[2022-06-18 21:15:59,451: INFO: stage_01_load_save]: >>>>> stage GET DATA started <<<<<
-[2022-06-18 21:15:59,454: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-06-18 21:16:01,381: INFO: common]: created directory at: artifacts\raw_local_dir
-[2022-06-18 21:16:01,396: INFO: stage_01_load_save]: raw data is saved at: artifacts\raw_local_dir\data.csv
-[2022-06-18 21:16:01,396: INFO: stage_01_load_save]: >>>>> stage GET DATA completed!<<<<<
-
-[2022-06-18 21:16:58,119: INFO: stage_01_load_save]: 
-********************
-[2022-06-18 21:16:58,120: INFO: stage_01_load_save]: >>>>> stage GET DATA started <<<<<
-[2022-06-18 21:16:58,122: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-06-18 21:17:00,804: INFO: common]: created directory at: artifacts\raw_local_dir
-[2022-06-18 21:17:00,818: INFO: stage_01_load_save]: raw data is saved at: artifacts\raw_local_dir\data.csv
-[2022-06-18 21:17:00,818: INFO: stage_01_load_save]: >>>>> stage GET DATA completed!<<<<<
+[2022-06-18 21:34:30,057: INFO: stage_02_split_data]: >>>>> stage SPLIT data stage started <<<<<
+[2022-06-18 21:34:30,058: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-18 21:34:30,059: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-18 21:34:30,063: INFO: stage_02_split_data]: splitting of data in training and test files at test_size: 0.3
+[2022-06-18 21:34:30,063: INFO: common]: created directory at: artifacts\split_data_dir
+[2022-06-18 21:34:30,073: INFO: stage_02_split_data]: data is saved at: artifacts\split_data_dir\train.csv
+[2022-06-18 21:34:30,078: INFO: stage_02_split_data]: data is saved at: artifacts\split_data_dir\test.csv
+[2022-06-18 21:34:30,078: INFO: stage_02_split_data]: >>>>> stage SPLIT data stage completed!<<<<<
 

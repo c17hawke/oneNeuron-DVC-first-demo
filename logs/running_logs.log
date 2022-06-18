@@ -9,3 +9,25 @@
 [2022-06-18 21:34:30,078: INFO: stage_02_split_data]: data is saved at: artifacts\split_data_dir\test.csv
 [2022-06-18 21:34:30,078: INFO: stage_02_split_data]: >>>>> stage SPLIT data stage completed!<<<<<
 
+[2022-06-18 21:37:03,088: INFO: stage_02_split_data]: 
+********************
+[2022-06-18 21:37:03,088: INFO: stage_02_split_data]: >>>>> stage SPLIT data stage started <<<<<
+[2022-06-18 21:37:03,089: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-18 21:37:03,090: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-18 21:37:03,094: INFO: stage_02_split_data]: splitting of data in training and test files at test_size: 0.3
+[2022-06-18 21:37:03,095: INFO: common]: created directory at: artifacts\split_data_dir
+[2022-06-18 21:37:03,106: INFO: stage_02_split_data]: data is saved at: artifacts\split_data_dir\train.csv
+[2022-06-18 21:37:03,112: INFO: stage_02_split_data]: data is saved at: artifacts\split_data_dir\test.csv
+[2022-06-18 21:37:03,112: INFO: stage_02_split_data]: >>>>> stage SPLIT data stage completed!<<<<<
+
+[2022-06-18 21:37:58,888: INFO: stage_02_split_data]: 
+********************
+[2022-06-18 21:37:58,888: INFO: stage_02_split_data]: >>>>> stage SPLIT data stage started <<<<<
+[2022-06-18 21:37:58,889: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-18 21:37:58,890: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-18 21:37:58,895: INFO: stage_02_split_data]: splitting of data in training and test files at test_size: 0.3
+[2022-06-18 21:37:58,896: INFO: common]: created directory at: artifacts\split_data_dir
+[2022-06-18 21:37:58,907: INFO: stage_02_split_data]: data is saved at: artifacts\split_data_dir\train.csv
+[2022-06-18 21:37:58,914: INFO: stage_02_split_data]: data is saved at: artifacts\split_data_dir\test.csv
+[2022-06-18 21:37:58,914: INFO: stage_02_split_data]: >>>>> stage SPLIT data stage completed!<<<<<
+

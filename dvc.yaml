@@ -7,3 +7,13 @@ stages:
     - src/utils/common.py
     outs:
     - artifacts/raw_local_dir/data.csv
+
+  split_data:
+    cmd: python src/stage_02_split_data.py
+    deps:
+    - src/stage_02_split_data.py
+    - src/utils/common.py
+    - artifacts/raw_local_dir/data.csv
+    outs:
+    - artifacts/split_data_dir/train.csv
+    - artifacts/split_data_dir/test.csv

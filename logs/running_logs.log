@@ -1,13 +1,15 @@
-[2022-06-18 20:40:52,022: INFO: stage_00_template]: 
+[2022-06-18 21:11:35,048: INFO: stage_01_load_save]: 
 ********************
-[2022-06-18 20:40:52,022: INFO: stage_00_template]: >>>>> stage STAGE_NAME started <<<<<
-[2022-06-18 20:40:52,024: INFO: common]: yaml file: configs/config.yaml loaded successfully
-[2022-06-18 20:40:52,024: INFO: stage_00_template]: config is read successfully
-[2022-06-18 20:40:52,025: INFO: common]: yaml file: params.yaml loaded successfully
-[2022-06-18 20:40:52,025: ERROR: stage_00_template]: name 'params_' is not defined
-Traceback (most recent call last):
-  File "src/stage_00_template.py", line 37, in <module>
-    main(config_path=parsed_args.config, params_path=parsed_args.params)
-  File "src/stage_00_template.py", line 25, in main
-    logging.info(f"{params_} is read successfully")
-NameError: name 'params_' is not defined
+[2022-06-18 21:11:35,048: INFO: stage_01_load_save]: >>>>> stage GET DATA started <<<<<
+[2022-06-18 21:11:35,051: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-18 21:11:39,110: INFO: common]: created directory at: artifacts\raw_local_dir
+[2022-06-18 21:11:39,123: INFO: stage_01_load_save]: >>>>> stage GET DATA completed!<<<<<
+
+[2022-06-18 21:12:56,800: INFO: stage_01_load_save]: 
+********************
+[2022-06-18 21:12:56,801: INFO: stage_01_load_save]: >>>>> stage GET DATA started <<<<<
+[2022-06-18 21:12:56,803: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-18 21:12:58,957: INFO: common]: created directory at: artifacts\raw_local_dir
+[2022-06-18 21:12:58,969: INFO: stage_01_load_save]: raw data is saved at: artifacts\raw_local_dir\data.csv
+[2022-06-18 21:12:58,969: INFO: stage_01_load_save]: >>>>> stage GET DATA completed!<<<<<
+

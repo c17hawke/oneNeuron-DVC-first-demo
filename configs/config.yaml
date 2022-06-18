@@ -1,7 +1,12 @@
 # It contains all the configs required in the project
 
+data_source: http://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv
+
 artifacts:
   ARTIFACTS_DIR: artifacts
+  RAW_LOCAL_DIR: raw_local_dir
+  RAW_LOCAL_FILE: data.csv
+ 
   TRAINED_MODEL_DIR: model
   BASE_MODEL_DIR: base_model
   BASE_MODEL_NAME: base_model.h5

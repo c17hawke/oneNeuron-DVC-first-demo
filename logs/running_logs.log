@@ -1,0 +1,13 @@
+[2022-06-18 20:40:52,022: INFO: stage_00_template]: 
+********************
+[2022-06-18 20:40:52,022: INFO: stage_00_template]: >>>>> stage STAGE_NAME started <<<<<
+[2022-06-18 20:40:52,024: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-18 20:40:52,024: INFO: stage_00_template]: config is read successfully
+[2022-06-18 20:40:52,025: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-18 20:40:52,025: ERROR: stage_00_template]: name 'params_' is not defined
+Traceback (most recent call last):
+  File "src/stage_00_template.py", line 37, in <module>
+    main(config_path=parsed_args.config, params_path=parsed_args.params)
+  File "src/stage_00_template.py", line 25, in main
+    logging.info(f"{params_} is read successfully")
+NameError: name 'params_' is not defined

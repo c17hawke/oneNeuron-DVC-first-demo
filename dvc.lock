@@ -4,8 +4,8 @@ stages:
     cmd: python src/stage_01_load_save.py
     deps:
     - path: src/stage_01_load_save.py
-      md5: a6ce513188adb6473c16f0fedcca007f
-      size: 1597
+      md5: 281acba292bf4cb54a8bdea496a13422
+      size: 1595
     - path: src/utils/common.py
       md5: d162961d817182441383bdb0e674e685
       size: 675
@@ -20,8 +20,8 @@ stages:
       md5: 7d814a1bda02145efe703f4e1c01847a
       size: 93599
     - path: src/stage_02_split_data.py
-      md5: 6c4ffc94b6a9fecc43ba9819fe098fa0
-      size: 2371
+      md5: 04af62a7cf6ff16e810e63a715914436
+      size: 2373
     - path: src/utils/common.py
       md5: d162961d817182441383bdb0e674e685
       size: 675

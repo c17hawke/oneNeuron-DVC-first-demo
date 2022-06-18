@@ -47,6 +47,7 @@ def main(config_path, params_path):
         data.to_csv(data_path, sep=",", index=False)
         logging.info(f"data is saved at: {data_path}")
 
+
 if __name__ == '__main__':
     args = argparse.ArgumentParser()
     args.add_argument("--config", "-c", default="configs/config.yaml")

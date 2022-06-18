@@ -13,3 +13,19 @@
 [2022-06-18 21:12:58,969: INFO: stage_01_load_save]: raw data is saved at: artifacts\raw_local_dir\data.csv
 [2022-06-18 21:12:58,969: INFO: stage_01_load_save]: >>>>> stage GET DATA completed!<<<<<
 
+[2022-06-18 21:15:59,451: INFO: stage_01_load_save]: 
+********************
+[2022-06-18 21:15:59,451: INFO: stage_01_load_save]: >>>>> stage GET DATA started <<<<<
+[2022-06-18 21:15:59,454: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-18 21:16:01,381: INFO: common]: created directory at: artifacts\raw_local_dir
+[2022-06-18 21:16:01,396: INFO: stage_01_load_save]: raw data is saved at: artifacts\raw_local_dir\data.csv
+[2022-06-18 21:16:01,396: INFO: stage_01_load_save]: >>>>> stage GET DATA completed!<<<<<
+
+[2022-06-18 21:16:58,119: INFO: stage_01_load_save]: 
+********************
+[2022-06-18 21:16:58,120: INFO: stage_01_load_save]: >>>>> stage GET DATA started <<<<<
+[2022-06-18 21:16:58,122: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-18 21:17:00,804: INFO: common]: created directory at: artifacts\raw_local_dir
+[2022-06-18 21:17:00,818: INFO: stage_01_load_save]: raw data is saved at: artifacts\raw_local_dir\data.csv
+[2022-06-18 21:17:00,818: INFO: stage_01_load_save]: >>>>> stage GET DATA completed!<<<<<
+

@@ -1,8 +1,9 @@
 # add stages here 
-# stages:
-#   stage_name:
-#     cmd: python src/stage_01______.py
-#     deps:
-#     - src/stage_01______.py
-#     outs:
-#     - output_data_of_file_path
+stages:
+  get_data:
+    cmd: python src/stage_01_load_save.py
+    deps:
+    - src/stage_01_load_save.py
+    - src/utils/common.py
+    outs:
+    - artifacts/raw_local_dir/data.csv

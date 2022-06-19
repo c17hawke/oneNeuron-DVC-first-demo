@@ -5,6 +5,7 @@ stages:
     deps:
     - src/stage_01_load_save.py
     - src/utils/common.py
+    - configs/config.yaml
     outs:
     - artifacts/raw_local_dir/data.csv
 
@@ -14,6 +15,10 @@ stages:
     - src/stage_02_split_data.py
     - src/utils/common.py
     - artifacts/raw_local_dir/data.csv
+    - configs/config.yaml
+    params:
+      - base.random_state
+      - base.test_size
     outs:
     - artifacts/split_data_dir/train.csv
     - artifacts/split_data_dir/test.csv
@@ -24,6 +29,11 @@ stages:
     - src/stage_03_train.py
     - src/utils/common.py
     - artifacts/split_data_dir/train.csv
+    - configs/config.yaml
+    params:
+      - model_params.ElasticNet.alpha
+      - model_params.ElasticNet.l1_ratio
+      - base.random_state
     outs:
     - artifacts/model_dir/model.pkl
 
@@ -34,6 +44,8 @@ stages:
     - src/utils/common.py
     - artifacts/split_data_dir/test.csv
     - artifacts/model_dir/model.pkl
+    - configs/config.yaml
+    - params.yaml
     metrics:
       - scores.json:
           cache: false

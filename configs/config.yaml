@@ -11,3 +11,5 @@ artifacts:
   TEST: test.csv
   MODEL_DIR: model_dir
   MODEL_NAME: model.pkl
+
+scores: scores.json

@@ -26,3 +26,14 @@ stages:
     - artifacts/split_data_dir/train.csv
     outs:
     - artifacts/model_dir/model.pkl
+
+  evaluate:
+    cmd: python src/stage_04_evaluate.py
+    deps:
+    - src/stage_04_evaluate.py
+    - src/utils/common.py
+    - artifacts/split_data_dir/test.csv
+    - artifacts/model_dir/model.pkl
+    metrics:
+      - scores.json:
+          cache: false

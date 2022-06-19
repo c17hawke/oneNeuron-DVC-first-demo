@@ -35,3 +35,19 @@
 [2022-06-19 19:26:04,473: INFO: stage_03_train]: model is trained and saved at: artifacts\model_dir\model.pkl
 [2022-06-19 19:26:04,473: INFO: stage_03_train]: >>>>> stage Training completed!<<<<<
 
+[2022-06-19 19:37:28,501: INFO: stage_04_evaluate]: 
+********************
+[2022-06-19 19:37:28,501: INFO: stage_04_evaluate]: >>>>> stage Evaluate started <<<<<
+[2022-06-19 19:37:28,503: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-19 19:37:28,504: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-19 19:37:28,555: INFO: common]: json file saved at: scores.json
+[2022-06-19 19:37:28,555: INFO: stage_04_evaluate]: >>>>> stage Evaluate completed!<<<<<
+
+[2022-06-19 19:39:40,465: INFO: stage_04_evaluate]: 
+********************
+[2022-06-19 19:39:40,465: INFO: stage_04_evaluate]: >>>>> stage Evaluate started <<<<<
+[2022-06-19 19:39:40,467: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-19 19:39:40,468: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-19 19:39:40,520: INFO: common]: json file saved at: scores.json
+[2022-06-19 19:39:40,520: INFO: stage_04_evaluate]: >>>>> stage Evaluate completed!<<<<<
+

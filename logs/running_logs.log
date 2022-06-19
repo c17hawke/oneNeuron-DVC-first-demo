@@ -122,3 +122,19 @@ TypeError: main() missing 1 required positional argument: 'params_path'
 [2022-06-19 19:52:20,073: INFO: common]: json file saved at: scores.json
 [2022-06-19 19:52:20,074: INFO: stage_04_evaluate]: >>>>> stage Evaluate completed!<<<<<
 
+[2022-06-19 19:53:06,979: INFO: stage_03_train]: 
+********************
+[2022-06-19 19:53:06,979: INFO: stage_03_train]: >>>>> stage Training started <<<<<
+[2022-06-19 19:53:06,981: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-19 19:53:06,982: INFO: common]: yaml file: params.yaml loaded successfully
+[2022-06-19 19:53:06,986: INFO: common]: created directory at: artifacts\model_dir
+[2022-06-19 19:53:06,990: INFO: stage_03_train]: model is trained and saved at: artifacts\model_dir\model.pkl
+[2022-06-19 19:53:06,990: INFO: stage_03_train]: >>>>> stage Training completed!<<<<<
+
+[2022-06-19 19:53:09,153: INFO: stage_04_evaluate]: 
+********************
+[2022-06-19 19:53:09,153: INFO: stage_04_evaluate]: >>>>> stage Evaluate started <<<<<
+[2022-06-19 19:53:09,155: INFO: common]: yaml file: configs/config.yaml loaded successfully
+[2022-06-19 19:53:09,213: INFO: common]: json file saved at: scores.json
+[2022-06-19 19:53:09,213: INFO: stage_04_evaluate]: >>>>> stage Evaluate completed!<<<<<
+

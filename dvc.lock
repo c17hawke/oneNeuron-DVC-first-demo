@@ -32,3 +32,19 @@ stages:
     - path: artifacts/split_data_dir/train.csv
       md5: 5e5a3523f0fba3925dc577c3baf2c5cd
       size: 65577
+  train:
+    cmd: python src/stage_03_train.py
+    deps:
+    - path: artifacts/split_data_dir/train.csv
+      md5: 5e5a3523f0fba3925dc577c3baf2c5cd
+      size: 65577
+    - path: src/stage_03_train.py
+      md5: 1310c1daa5e0cbba5f3fab5ef0e141e8
+      size: 2327
+    - path: src/utils/common.py
+      md5: d162961d817182441383bdb0e674e685
+      size: 675
+    outs:
+    - path: artifacts/model_dir/model.pkl
+      md5: 5e0aa54d837c5c5c7354ad7592c9da0e
+      size: 1316
